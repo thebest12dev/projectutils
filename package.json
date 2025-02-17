@@ -1,0 +1,21 @@
+{
+  "name": "projectutils",
+  "version": "1.0.0",
+  "description": "A set of utilities for codebases.",
+  "keywords": [
+    "project",
+    "codebase",
+    "utilities"
+  ],
+  "author": "thebest12lines",
+  "license": "MIT",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "projectutils": "file:"
+  },
+  "bin": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thebest12dev/projectutils"
+  }
+}
