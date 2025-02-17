@@ -1,6 +1,6 @@
 {
-  "name": "projectutils",
-  "version": "1.0.0",
+  "name": "libprojectutils",
+  "version": "1.0.1",
   "description": "A set of utilities for codebases.",
   "keywords": [
     "project",
@@ -11,11 +11,13 @@
   "license": "MIT",
   "dependencies": {
     "argparse": "^2.0.1",
-    "projectutils": "file:"
+    "libprojectutils": "file:"
   },
-  "bin": "cli.js",
+  "bin": {
+    "projectutils": "cli.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thebest12dev/projectutils"
+    "url": "git+https://github.com/thebest12dev/projectutils.git"
   }
 }

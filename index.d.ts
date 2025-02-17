@@ -1,4 +1,4 @@
-declare module 'projectutils' {
+declare module 'libprojectutils' {
     /**
      * Bumps the version (major, minor or patch). `@since` metadata are preserved.
      */
